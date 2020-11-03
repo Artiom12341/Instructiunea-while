@@ -1,6 +1,10 @@
 nr=1
 s=0
-while nr!=0:
-    s+=nr
+b=1
+while b!=0:
     nr= eval(input("dati numere intregi="))
-print ("suma numerelor este",s)
+    if nr==0:
+        break
+    else:
+        s=s+nr
+    print ("suma numerelor este",s)
